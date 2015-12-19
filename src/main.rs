@@ -1,5 +1,4 @@
-extern crate load;
-use lib::load::fileManager;
+mod file;
 fn main() {
-	let fm=fileManager("/home/bueasy/Test.java");
+	file::load_file("/home/bueasy/399300.txt")
 }
